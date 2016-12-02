@@ -2,10 +2,10 @@
     
 class DB {
     
-    protected $db_name = 'vwalletin';
-    protected $db_user = 'root';
-    protected $db_pass = '';
-    protected $db_host = 'localhost';
+    protected $db_name = 'DatabaseName';
+    protected $db_user = 'DatabaseUser';
+    protected $db_pass = 'DatabasePassowrd';
+    protected $db_host = 'DatabaseHost';
     
     // Open a connect to the database.
     // Make sure this is called on every page that needs to use the database.
