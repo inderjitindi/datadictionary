@@ -7,6 +7,7 @@ class DB {
     protected $db_pass = 'DatabasePassowrd';
     protected $db_host = 'DatabaseHost';
     
+    
     // Open a connect to the database.
     // Make sure this is called on every page that needs to use the database.
     
